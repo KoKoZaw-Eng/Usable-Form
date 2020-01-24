@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Fieldset Tag</title>
+  </head>
+  <body>
+  <form name="frm" action="action.php">
+  Name:
+  <input type="text" name="txt" value=""/>
+  Phone:
+  <input type="text" name="txt" value=""/><br><br>
+  <fieldset>
+  <legend>
+  <b>Service:</b></legend>
+  <input type="checkbox" name="chk" value="yearly"/>Yearly
+  <input type="checkbox" name="chk" value="monthly"/>Monthly
+  <input type="checkbox" name="chk" value="daily"/>Daily
+  </fieldset>
+
+  <fieldset>
+  <legend>
+  <b>Pay Method:</b></legend>
+  <input type="radio" name="opt" value="paypal"/>Paypal
+  <input type="radio" name="opt" value="master"/>Master Card
+  <input type="radio" name="opt" value="visa"/>Visa Card
+  </fieldset>
+
+  Month:
+  <select name="date">
+  <option value="1">Jan</option>
+  <option value="2">Feb</option>
+  <option value="3">Mar</option>
+  <option value="4">Apr</option>
+  </select>
+  <br>
+
+  Category(press Ctrl for Multiselect):<br>
+  <select name="cat" mulitple>
+  <option value="personal">Free for Personal Use</option>
+  <option value="free">Free for Commercial</option>
+  <option value="commercial">Commercial</option>
+  </select>
+  <br><br>
+  <input type="submit" value="submit"/>
+  <input type="reset" value="clear"/>
+  </form>
+  </body>
+</html>
